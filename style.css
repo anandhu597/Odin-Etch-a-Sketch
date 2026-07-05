@@ -6,10 +6,19 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  background-color: #1a1a2e;
-
+  background-color: #f8f9fa;
   font-family: system-ui, Arial, sans-serif;
 }
+
+/* ____________ Heading ____________ */
+#heading {
+  color: #e67e22;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
 /* ____________ Button Div ____________ */
 #btnDiv {
   margin: 12px 32px;
@@ -18,7 +27,7 @@ body {
 /* ____________ Resize Button ____________ */
 #resizeBtn {
   padding: 12px 32px;
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: #e67e22;
@@ -35,7 +44,6 @@ body {
 }
 
 /* ____________ Grid Container ____________ */
-
 #container {
   display: flex;
   flex-wrap: wrap;
@@ -43,17 +51,10 @@ body {
   border: 3px solid #e67e22;
   box-shadow: 0 0 20px rgba(230, 126, 34, 0.3);
 }
+
 /* ____________ Grid Boxes ____________ */
-
+/* Width and height set dynamically in JS based on grid size */
 .box {
-  width: 60px;
-  height: 60px;
   box-sizing: border-box;
-  background-color: #f5f5f5;
-}
-
-/* ____________ Inked State ____________ */
-
-.inked {
-  background-color: #1a1a2e;
+  background-color: #ffffff;
 }
